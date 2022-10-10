@@ -330,9 +330,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Support", url="https://t.me/OMG_info"),
+                                "Support", url="https://t.me/BotsXSupport"),
                             InlineKeyboardButton(
-                                "Creator", url="https://t.me/shado_hackers")
+                                "UPDATE𖣘", url="https://t.me/BotsXUpdate")
                         ],
                     ]
                 ),
@@ -422,7 +422,7 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "❂ <b>Stats For <a href='https://t.me/TGN_Ro_bot'>GodfatherBot</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "❂ <b>Stats For <a href='https://t.me/YaeMikoXProbot'>Miko</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     update.effective_message.reply_text(
         result,
