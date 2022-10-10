@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [GodfatherBot](https://telegra.ph/file/bfa2fbaf65ac04fad78ee.jpg) 」────
+────「 [yaimikobot](https://te.legra.ph/file/31b317b791d696976ab19.mp4) 」────
 ʜᴇʏ! {}
 ɪ ᴀᴍ 𝐆𝐨𝐝𝐟𝐚𝐭𝐡𝐞𝐫𝐛𝐨𝐭 ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴏ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -99,15 +99,15 @@ I have lots of handy features such as:
 buttons = [
     [
         InlineKeyboardButton(
-            text="💕 Add To Your Group 💕", url="t.me/TGN_Ro_bot?startgroup=new"),
+            text="💕 Add To Your Group 💕", url="t.me/YaeMikoXProbot?startgroup=new"),
     ],
     [                  
                        InlineKeyboardButton(
-                             text="Support👥",
-                             url=f"https://t.me/GodfatherSupport"),
+                             text="𝙎𝙐𝙋𝙋𝙊𝙍𝙏👥",
+                             url=f"https://t.me/BotsXSupport"),
                        InlineKeyboardButton(
-                             text="Updates📡",
-                             url=f"https://t.me/The_Godfather_Network"),
+                             text="𝙐𝙋𝘿𝘼𝙏𝙀𝙎📡",
+                             url=f"https://t.me/BotsXUpdate"),
     ],
     [
         InlineKeyboardButton(
@@ -130,9 +130,9 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@Godfatherakkii**"""
-HELP_IMG = "https://telegra.ph/file/d394e1486b4fa1cfcb322.jpg"
-GROUP_IMG = "https://telegra.ph/file/3f3c3af0e2236daad0dd2.jpg"
+DONATE_STRING = """Contact to **@DushmanXRonin**"""
+HELP_IMG = "https://te.legra.ph/file/31b317b791d696976ab19.mp4"
+GROUP_IMG = "https://te.legra.ph/file/31b317b791d696976ab19.mp4"
 
 
 
@@ -256,8 +256,8 @@ def start(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="✧ Support ", url=f"https://t.me/GodfatherSupport"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/The_Godfather_Network"),
+                  InlineKeyboardButton(text="✧ Support ", url=f"https://t.me/BotsXSupport"),
+                  InlineKeyboardButton(text="✧ Updates ", url=f"https://t.me/BotsXUpdate"),
                   ]
                 ]
             ),
@@ -471,8 +471,8 @@ def shukurenai_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/GodfatherSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/The_Godfather_Network"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/BotsXSupport"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/BotsXUpdate"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -491,9 +491,9 @@ def shukurenai_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Zaid", url="https://t.me/Timesisnotwaiting"),
-                    InlineKeyboardButton(text="Null", url="https://t.me/Shubhanshutya"),
-                    InlineKeyboardButton(text="Akki", url="https://t.me/Godfatherakki"), 
+                    InlineKeyboardButton(text="HARUKI", url="https://t.me/Haruki_Shiga_16"),
+                    InlineKeyboardButton(text="RONIN𒁂", url="https://t.me/DUSHMANXRONIN"),
+                    InlineKeyboardButton(text="Abhinav", url="https://t.me/Redeye_Ghoul"), 
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -833,10 +833,10 @@ def main():
                   [                  
                        InlineKeyboardButton(
                              text="Support👥",
-                             url=f"https://t.me/GodfatherSupport"),
+                             url=f"https://t.me/BotsXSupport"),
                        InlineKeyboardButton(
                              text="Updates📡",
-                             url="https://t.me/The_Godfather_Network")
+                             url="https://t.me/BotsXUpdate")
                      ] 
                 ]
             ),
